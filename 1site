@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>DLK</h2>
+        <ul>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">catalog</a></li>
+            <li><a href="#">about us</a></li>
+        </ul>
+        <a href="#">contact us</a>
+    </header> 
+    <main>
+        <section class="banner">
+          <h1>THE OOH NOO COLLECTION</h1>
+          <p>Designed in Slovenia</p>  
+          <button type="button" class="btn">EXPLORE NOW</button>
+        </section>
+        <section>
+            <h2>CATEGORY PRODUCTS</h2>
+            <ul>
+                <li>
+                    <a href="#"><img src="#" alt="apparel kids"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="#" alt="holiday shop"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="#" alt="apparel kids"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="#" alt="apparel kids"></a>
+                </li>
+            </ul>
+            <button type="button" class="btn">right</button>
+            <button type="button" class="btn">left</button>
+            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+        </section>
+        <section>
+            <div>
+            <h2>DELIVERY</h2>
+            <button type="button" class="btn">Delivery</button>
+            <button type="button" class="btn">Guarantee</button>
+            <button type="button" class="btn">Credit</button>
+            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <a href="#">Learn more</a>
+        </div>
+        <img src="#" alt="DELIVERY">
+        </section>
+        <section>
+            <ul>
+                <li><a href="#"><img src="#" alt="mail"></a></li>
+                <li><a href="#"><img src="#" alt="apple"></a></li>
+                <li><a href="#"><img src="#" alt="eltex"></a></li>
+                <li><a href="#"><img src="#" alt="owox"></a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>DESIGN LIFE KIDS</h2>
+            <h3>About Us</h3>
+            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <button type="button" class="btn">BUY NOW</button>
+        </section>
+        <section>
+            <h2>CONTACTS</h2>
+            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <img src="#" alt="MAP">
+        </section>
+    </main>
+</body>
+ </html>
