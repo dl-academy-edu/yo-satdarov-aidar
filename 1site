@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <a href="#"><img src="./image/logo.svg" alt="logo" width="100.08" height="52"></a>
         <h2>DLK</h2>
         <ul>
             <li><a href="#">blog</a></li>
@@ -18,6 +19,7 @@
     </header> 
     <main>
         <section class="banner">
+            <img src="./image/banner.png" alt="banner" width="636" height="489">
           <h1>THE OOH NOO COLLECTION</h1>
           <p>Designed in Slovenia</p>  
           <button type="button" class="btn">EXPLORE NOW</button>
@@ -26,16 +28,16 @@
             <h2>CATEGORY PRODUCTS</h2>
             <ul>
                 <li>
-                    <a href="#"><img src="#" alt="apparel kids"></a>
+                    <a href="#"><img src="./image/apparelkids.png" alt="apparelkids" width="244" height="177">APPAREL KIDS</a>
                 </li>
                 <li>
-                    <a href="#"><img src="#" alt="holiday shop"></a>
+                    <a href="#"><img src="./image/holidayshop.png" alt="holidayshop"width="208" height="244">HOLIDAY SHOP</a>
                 </li>
                 <li>
-                    <a href="#"><img src="#" alt="apparel kids"></a>
+                    <a href="#"><img src="./image/toys.png" alt="toys" width="270" height="270">TOYS</a>
                 </li>
                 <li>
-                    <a href="#"><img src="#" alt="apparel kids"></a>
+                    <a href="#"><img src="./image/accessories.png" alt="accessories" width="240" height="250">ACCESSORIES</a>
                 </li>
             </ul>
             <button type="button" class="btn">right</button>
@@ -51,14 +53,14 @@
             <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
             <a href="#">Learn more</a>
         </div>
-        <img src="#" alt="DELIVERY">
-        </section>
+        <img src="./image/delivery.jpg" alt="delivery" width="480" height="559">
+    </section>
         <section>
             <ul>
-                <li><a href="#"><img src="#" alt="mail"></a></li>
-                <li><a href="#"><img src="#" alt="apple"></a></li>
-                <li><a href="#"><img src="#" alt="eltex"></a></li>
-                <li><a href="#"><img src="#" alt="owox"></a></li>
+                <li><a href="#"><img src="./image/mail.png" alt="mail" width="193" height="60"></a></li>
+                <li><a href="#"><img src="./image/apple.png" alt="apple" width="179" height="61"></a></li>
+                <li><a href="#"><img src="./image/eltex.png" alt="eltex" width="216" height="46"></a></li>
+                <li><a href="#"><img src="./image/owox.png" alt="owox" width="211" height="40"></a></li>
             </ul>
         </section>
         <section>
@@ -70,8 +72,50 @@
         <section>
             <h2>CONTACTS</h2>
             <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
-            <img src="#" alt="MAP">
+            <img src="./image/map.jpg" alt="map" width="483" height="196">
         </section>
     </main>
+    <footer>
+        <footer>
+            <section>
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Design Services</a></li>
+                    <li><a href="#">Featured On</a></li>
+                    <li><a href="#">2018 Holiday Catalog</a></li>
+                    <li><a href="#">Shop By Designer</a></li>
+                    <li><p>Company Rating</p></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Customer Information</h2>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sale Exclusions</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Pricvacy Policy</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li>Copyright 2018 Dlk  Design Life Kids</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Connect</h2>
+                <form> 
+                    <input type="text" name="text" class="search" placeholderSearch here!>
+                  </form>
+                  
+                  <a href="#"><img src="./images/facebook.svg" alt="facebook" width="7.89" height="14.21"></a>
+                  <a href="#"><img src="./images/twitter.svg" alt="twitter" width="14.4" height="11.7"></a>
+                  <a href="#"><img src="./images/pinterest.svg" alt="pinterest" width="16" height="16"></a>
+                  <a href="#"><img src="./images/instagram.svg" alt="instagram" width="16" height="16"></a>
+                  <p>Web Design - Direct Line Development</p>
+                  
+        
+            </section>
+        </footer>
+    </footer>
 </body>
  </html>
