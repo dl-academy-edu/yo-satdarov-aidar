@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    
+}
+.logos {
+    display: flex;
+}
+.dough {
+margin-right: 920px;
+}
+.category {
+    display: flex;
+    
+}
+.category1 {
+    margin-right: 20 px;
+} 
+.category2 {
+    margin-right: 20 px;
+} 
+.category3 {
+    margin-right: 20 px;
+} 
+.category4 {
+    margin-right: 20 px;
+} 

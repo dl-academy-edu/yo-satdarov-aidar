@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" type href="./css/normalize.css">
     <title>Main</title>
 </head>
 <body>
     <header>
         <a href="#"><img src="./image/logo.svg" alt="logo" width="100.08" height="52"></a>
-        <h2>DLK</h2>
         <ul>
             <li><a href="blog.html">blog</a></li>
             <li><a href="catalog.html">catalog</a></li>
@@ -21,7 +22,32 @@
 <h1>TOY FOR KIDS</h1>
 <section>
     <form action="">
+        <div>
+            <div></div>
+            <div> 
+            Color
+            <label for="input-color">Black</label>
+            <input type="checkbox" id="input-color" class="input-color">
+            <label for="input-color1">Blue</label>
+            <input type="checkbox" id="input-color1" class="input-color">
+            <label for="input-color2">Green</label>
+            <input type="checkbox" id="input-color2" class="input-color">
+            <label for="input-color3">White</label>
+            <input type="checkbox" id="input-color3" class="input-color">
+            </div>
 
+            <div>
+            Delivery
+            <label for="input-delivery">Free shipping</label>
+            <input type="checkbox" id="input-delivery" class="input-delivery">
+            <label for="input-delivery1">Fast shipping</label>
+            <input type="checkbox" id="input-delivery1" class="input-delivery">
+            </div>
+            <div>
+                Amount
+            </div>
+            <button type="submit">APPLY</button>
+        </div>
     </form>
 </section>
 <section>
@@ -48,7 +74,7 @@
 </section>
     </main>
     <footer>
-        <section>
+        <section class="futer">
             <h2>Navigation</h2>
             <ul>
                 <li><a href="#">About us</a></li>
@@ -60,7 +86,7 @@
                 <li><p>Company Rating</p></li>
             </ul>
         </section>
-        <section>
+        <section class="futer">
             <h2>Customer Information</h2>
             <ul>
                 <li><a href="#">Contact Us</a></li>
@@ -72,7 +98,7 @@
                 <li>Copyright 2018 Dlk  Design Life Kids</li>
             </ul>
         </section>
-        <section>
+        <section class="futer">
             <h2>Connect</h2>
             <form> 
                 <input type="text" name="text" class="search" placeholderSearch here!>

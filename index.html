@@ -4,46 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
     <title>Main</title>
 </head>
 <body>
-    <header>
+    <header class="container header">
+       
         <a href="#"><img src="./image/logo.svg" alt="logo" width="100.08" height="52"></a>
-        <h2>DLK</h2>
-        <ul>
+        
+        <ul class="header__list">
             <li><a href="blog.html">blog</a></li>
             <li><a href="catalog.html">catalog</a></li>
             <li><a href="#">about us</a></li>
         </ul>
-        <a href="contact.html">contact us</a>
+        <a href="contact.html" class="dough">contact us</a>
     </header> 
     <main>
-        <section class="banner">
-            <img src="./image/banner.png" alt="banner" width="636" height="489">
+          <div class="container"><section class="banner">
+          <img src="./image/banner.png" alt="banner" width="636" height="489">
+          <img src="./image/fonmonster" alt="fonbanner" width="1180px" height="231px">
           <h1>THE OOH NOO COLLECTION</h1>
           <p>Designed in Slovenia</p>  
           <button type="button" class="btn">EXPLORE NOW</button>
           <a href="#">EXPLORE NOW</a>
-        </section>
+        </section></div>
         <section>
             <h2>CATEGORY PRODUCTS</h2>
-            <ul>
-                <li>
+            <ul class="category">
+                <li class="category1">
                     <a href="#"><img src="./image/apparelkids.png" alt="apparelkids" width="244" height="177">APPAREL KIDS</a>
                 </li>
-                <li>
+                <li class="category2">
                     <a href="#"><img src="./image/holidayshop.png" alt="holidayshop"width="208" height="244">HOLIDAY SHOP</a>
                 </li>
-                <li>
+                <li class="category3">
                     <a href="#"><img src="./image/toys.png" alt="toys" width="270" height="270">TOYS</a>
                 </li>
-                <li>
+                <li class="category4">
                     <a href="#"><img src="./image/accessories.png" alt="accessories" width="240" height="250">ACCESSORIES</a>
                 </li>
             </ul>
-            <button type="button" class="btn">right</button>
-            <button type="button" class="btn">left</button>
-            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            
+            <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
         <section>
             <div>
@@ -51,13 +61,25 @@
             <button type="button" class="btn">Delivery</button>
             <button type="button" class="btn">Guarantee</button>
             <button type="button" class="btn">Credit</button>
-            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <p>Delivery
+                Delivery
+                Guarantee
+                Credit
+                Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
+                What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
+                LEARN MOREDelivery
+                Delivery
+                Guarantee
+                Credit
+                Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
+                What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
+                LEARN MORE</p>
             <a href="#">Learn more</a>
         </div>
         <img src="./image/delivery.jpg" alt="delivery" width="480" height="559">
     </section>
         <section>
-            <ul>
+            <ul class="logos">
                 <li><a href="#"><img src="./image/mail.png" alt="mail" width="193" height="60"></a></li>
                 <li><a href="#"><img src="./image/apple.png" alt="apple" width="179" height="61"></a></li>
                 <li><a href="#"><img src="./image/eltex.png" alt="eltex" width="216" height="46"></a></li>
@@ -67,17 +89,17 @@
         <section>
             <h2>DESIGN LIFE KIDS</h2>
             <h3>About Us</h3>
-            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  </p>
             <button type="button" class="btn">BUY NOW</button>
         </section>
         <section>
             <h2>CONTACTS</h2>
-            <p>TEKSTTEKSTTEKSTTEKSTTEKSTTEKST</p>
+            <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <img src="./image/map.jpg" alt="map" width="483" height="196">
         </section>
     </main>
         <footer>
-            <section>
+            <section class="futer">
                 <h2>Navigation</h2>
                 <ul>
                     <li><a href="#">About us</a></li>
@@ -89,7 +111,7 @@
                     <li><p>Company Rating</p></li>
                 </ul>
             </section>
-            <section>
+            <section class="futer">
                 <h2>Customer Information</h2>
                 <ul>
                     <li><a href="#">Contact Us</a></li>
@@ -101,7 +123,7 @@
                     <li>Copyright 2018 Dlk  Design Life Kids</li>
                 </ul>
             </section>
-            <section>
+            <section class="futer">
                 <h2>Connect</h2>
                 <form> 
                     <input type="text" name="text" class="search" placeholderSearch here!>

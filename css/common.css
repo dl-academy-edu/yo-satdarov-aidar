@@ -1,0 +1,29 @@
+body {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    position: absolute;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+}
+.logos {
+    display: flex;
+}
+.dough {
+margin-right: 920px;
+}
